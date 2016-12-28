@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Thambi');
+
+* {
+font-family: 'Baloo Thambi', cursive;
+}
+
+body {
+  background-color:rgb(50, 70, 70);
+  margin-top:145px;
+}
+
+.square {
+  border: 6px solid rgb(50, 150, 120);
+  width: 89px;
+  height:90px;  
+  
+}
+
+.piece {
+  font-size:80px;
+  text-align:center;
+  position:relative;
+  top:-65px;
+  color:rgb(50, 50, 50);
+}
+.board {
+  margin:auto;
+  width:300px;
+  height:300px;
+  display:flex;
+  flex-wrap:wrap; 
+  outline: 55px solid #0ad1b9;
+  outline-offset: -10px;
+  background-color:#0ad1b9;
+  cursor:pointer;
+}
+
+.message_box{
+  position: absolute;
+  background-color:darkred;
+  width:40%;
+  text-align:center;
+  right:30%;
+  z-index: 100;
+  color:rgb(50, 150, 120);
+ top:100px;
+}
+
+.ai_set {
+  height:40px;
+  top: 15px;
+  padding:10px;
+  width:160px;
+  right:860px;
+  cursor:pointer;
+  font-size:25px;
+}
+
+.two_player_set {
+  height:40px;
+  top: 15px;
+  padding:10px;
+  width:160px;
+  right:670px;
+  cursor:pointer;
+  font-size:25px;
+}
+
